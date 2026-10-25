@@ -1,0 +1,11 @@
+record_id,text,sentiment,reason
+A001,"The delivery arrived early and everything was perfect.",Positive,"Expresses satisfaction with the service."
+A002,"The product stopped working after one day.",Negative,"Expresses dissatisfaction with product reliability."
+A003,"My order is scheduled to arrive on Tuesday.",Neutral,"Provides factual information without clear positive or negative sentiment."
+A004,"Customer support was helpful and resolved my issue.",Positive,"Praises the support experience."
+A005,"I waited for two hours and nobody assisted me.",Negative,"Describes a poor service experience."
+A006,"The package contains three notebooks.",Neutral,"States a factual detail."
+A007,"I absolutely love the quality of this product.",Positive,"Clearly expresses a favorable opinion."
+A008,"The app crashes every time I try to open it.",Negative,"Reports a recurring problem."
+A009,"The meeting starts at 10 a.m. tomorrow.",Neutral,"Provides a schedule without expressing an opinion."
+A010,"The food was cold, but the staff were friendly.",Mixed,"Contains both negative and positive sentiment; requires a mixed label if the schema allows it."
