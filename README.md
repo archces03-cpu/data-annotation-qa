@@ -1,56 +1,72 @@
-# Data Annotation and Quality Assurance Portfolio
+# Data Annotation and Quality Assurance
 
-## About This Project
+## Project Overview
 
-This project demonstrates a structured approach to text data annotation and quality assurance (QA) for AI training datasets.
+This project demonstrates a structured workflow for text annotation and quality assurance, using a sample sentiment-classification dataset.
 
-It includes sample text records, labeling guidelines, and quality checks designed to improve annotation consistency and reliability.
+It showcases skills relevant to AI data training, data annotation, dataset quality review, and LLM evaluation support.
 
-All examples are synthetic and created for portfolio demonstration.
+## Project Objectives
 
-## Objectives
+- Apply consistent sentiment labels using documented guidelines.
+- Provide clear reasons for annotation decisions.
+- Identify mixed sentiment and potentially ambiguous examples.
+- Check annotation completeness and consistency.
+- Document dataset limitations and opportunities for improvement.
 
-- Apply consistent labels to text data.
-- Develop clear annotation guidelines.
-- Identify ambiguous or incorrectly labeled records.
-- Review annotation consistency and data quality.
-- Document errors and recommend corrective actions.
+## Dataset
 
-## Annotation Tasks
+The sample dataset contains 10 text records covering four sentiment categories:
 
-This project focuses on text classification, including sentiment labeling.
+- **Positive:** expresses satisfaction or approval.
+- **Negative:** expresses dissatisfaction or criticism.
+- **Neutral:** provides information without clear positive or negative sentiment.
+- **Mixed:** contains meaningful positive and negative sentiment.
 
-Each sample is assigned one of three labels:
-
-- **Positive:** The text expresses satisfaction, approval, or a favorable opinion.
-- **Negative:** The text expresses dissatisfaction, criticism, or an unfavorable opinion.
-- **Neutral:** The text is factual or does not clearly express a positive or negative opinion.
-
-## Quality Assurance Process
-
-1. Review the annotation guidelines.
-2. Assign labels based on the text's meaning.
-3. Check labels against the guidelines.
-4. Flag ambiguous cases and inconsistent decisions.
-5. Document errors and recommended corrections.
+Each record includes a unique ID, text, sentiment label, and explanation.
 
 ## Project Files
 
-- `annotation_samples.csv` — Sample text records and assigned labels.
-- `annotation_guidelines.md` — Label definitions and decision rules.
-- `qa_report.md` — Quality review findings and recommendations.
-- `limitations.md` — Project scope and limitations.
+| File | Purpose |
+|---|---|
+| `annotation_samples.csv` | Sample annotated text records |
+| `annotation_guidelines.md` | Label definitions and decision rules |
+| `qa_report.md` | Manual quality assurance findings |
+| `limitations.md` | Dataset limitations and recommended improvements |
+
+## Quality Assurance Approach
+
+The sample workflow includes checks for:
+
+- Unique record identifiers.
+- Required fields and label validity.
+- Consistency between text, labels, and explanations.
+- Appropriate handling of mixed sentiment.
+- Ambiguous examples that may need further review.
 
 ## Skills Demonstrated
 
-- Text classification
-- Data annotation
-- Annotation guideline development
-- Quality assurance
-- Error identification
-- Consistency checking
-- Structured documentation
+- Text data annotation
+- Sentiment classification
+- Guideline-based decision-making
+- Annotation consistency checks
+- Error and ambiguity identification
+- Quality assurance documentation
+- Structured CSV data handling
 
 ## Limitations
 
-This is a small demonstration dataset. It does not establish production-level annotation accuracy or agreement between independent annotators.
+This is a small demonstration dataset created for portfolio purposes. It does not represent a production client dataset, and it does not establish statistical accuracy or inter-annotator agreement.
+
+## Future Improvements
+
+- Expand the dataset with more varied examples.
+- Add challenging cases involving sarcasm and context.
+- Compare labels from independent annotators.
+- Track disagreement patterns and improve the guidelines.
+
+## Intended Application
+
+This project demonstrates foundational skills relevant to AI training, data annotation, dataset quality assurance, and LLM evaluation support.
+
+The examples are educational demonstrations rather than claims of performance on a real client's dataset.
